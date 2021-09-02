@@ -1,5 +1,5 @@
 # Personalized Medicine: Redefining Cancer Treatment
-## Predict the effect of Genetic Variants to enable Personalized Medicine
+Predict the effect of Genetic Variants to enable Personalized Medicine
 
 #### DESCRIPTION:
 A lot has been said during the past several years about how precision medicine and, more concretely, how genetic testing is going to disrupt the way diseases like cancer are treated.
@@ -27,8 +27,11 @@ Finally, to make it more exciting!! Some of the test data is machine-generated t
 
 #### FILE DESCRIPTIONS:
 1] training_variants - a comma separated file containing the description of the genetic mutations used for training. Fields are ID (the id of the row used to link the mutation to the clinical evidence), Gene (the gene where this genetic mutation is located), Variation (the aminoacid change for this mutations), Class (1-9 the class this genetic mutation has been classified on)
+
 2] training_text - a double pipe (||) delimited file that contains the clinical evidence (text) used to classify genetic mutations. Fields are ID (the id of the row used to link the clinical evidence to the genetic mutation), Text (the clinical evidence used to classify the genetic mutation)
+
 3] test_variants - a comma separated file containing the description of the genetic mutations used for training. Fields are ID (the id of the row used to link the mutation to the clinical evidence), Gene (the gene where this genetic mutation is located), Variation (the aminoacid change for this mutations)
+
 4] test_text - a double pipe (||) delimited file that contains the clinical evidence (text) used to classify genetic mutations. Fields are ID (the id of the row used to link the clinical evidence to the genetic mutation), Text (the clinical evidence used to classify the genetic mutation)
 
 #### TO DOWNLOAD THE DATASETS:
