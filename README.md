@@ -15,7 +15,7 @@ For this Kaggle competition MSKCC is making available an expert-annotated knowle
 #### DATA DESCRIPTION:
 GOAL: Develop a Machine Learning algorithm that, using this knowledge base as a baseline, automatically classifies genetic variations.
 
-TARGET: There are nine different classes a genetic mutation can be classified on.
+TARGET: There are nine different classes a genetic mutation can be classified on. Hence, it is a multiclass classification problem.
 
 This is not a trivial task since interpreting clinical evidence is very challenging even for human specialists. Therefore, modeling the clinical evidence (text) will be critical for the success of your approach.
 
@@ -37,3 +37,8 @@ Finally, to make it more exciting!! Some of the test data is machine-generated t
 
 #### TO DOWNLOAD THE DATASETS:
 Visit: https://www.kaggle.com/c/msk-redefining-cancer-treatment/data
+
+#### COMMENTS:
+This is medical related problem so correct results are very important. Error can be really costly here so we would like to have result for each class in terms of Probablity. We might not be much bothered about time taken by ML algorithm as far as it is reasonable.
+
+We also want our model to be highly interpretable because a medical practitionar want to also give proper reasonining on why ML algorithm is predicting any class.
