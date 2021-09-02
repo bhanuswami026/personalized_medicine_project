@@ -38,6 +38,9 @@ Finally, to make it more exciting!! Some of the test data is machine-generated t
 #### TO DOWNLOAD THE DATASETS:
 Visit: https://www.kaggle.com/c/msk-redefining-cancer-treatment/data
 
+#### EVALUATION:
+Evaluation is based on Multi Class Log Loss between the predicted probability and the observed target.
+
 #### COMMENTS:
 This is medical related problem so correct results are very important. Error can be really costly here so we would like to have result for each class in terms of Probablity. We might not be much bothered about time taken by ML algorithm as far as it is reasonable.
 
