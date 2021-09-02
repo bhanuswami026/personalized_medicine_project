@@ -15,13 +15,14 @@ For this Kaggle competition MSKCC is making available an expert-annotated knowle
 #### DATA DESCRIPTION:
 GOAL: Develop a Machine Learning algorithm that, using this knowledge base as a baseline, automatically classifies genetic variations.
 
-There are nine different classes a genetic mutation can be classified on.
+TARGET: There are nine different classes a genetic mutation can be classified on.
 
 This is not a trivial task since interpreting clinical evidence is very challenging even for human specialists. Therefore, modeling the clinical evidence (text) will be critical for the success of your approach.
 
-Both, training and test, data sets are provided via two different files. One (training/test_variants) provides the information about the genetic mutations, whereas the other (training/test_text) provides the clinical evidence (text) that our human experts used to classify the genetic mutations. Both are linked via the ID field.
-
-Therefore the genetic mutation (row) with ID=15 in the file training_variants, was classified using the clinical evidence (text) from the row with ID=15 in the file training_text
+Both, training and test, data sets are provided via two different files. 
+* One (training/test_variants) provides the information about the genetic mutations, 
+* whereas the other (training/test_text) provides the clinical evidence (text) that our human experts used to classify the genetic mutations. 
+Both are linked via the ID field. Therefore the genetic mutation (row) with ID=15 in the file training_variants, was classified using the clinical evidence (text) from the row with ID=15 in the file training_text
 
 Finally, to make it more exciting!! Some of the test data is machine-generated to prevent hand labeling.
 
